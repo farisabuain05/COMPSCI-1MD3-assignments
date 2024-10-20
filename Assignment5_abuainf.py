@@ -140,7 +140,7 @@ def clean_avg(two_dimensional_list):
 
 ## defining each list of data (original, and the two modified)
 
-data_list = read_csv('wbcd.csv')
+data_list = read_csv('wbcd.csv') ## (OCTOBER 2024) Comment for clarification: 'wbcd.csv' is a test file provided by Professor. Uploaded to this repository for demonstration.
 
 clean_del_data_list = clean_del(data_list)
 
